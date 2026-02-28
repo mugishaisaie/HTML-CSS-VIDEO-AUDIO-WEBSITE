@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MI TECH FILM PRODUCTION</title>
+
+  <style>
+    body{
+      font-family: sans-serif;
+      margin:0 auto;
+      max-width: 90vw;
+      min-height: 100vh;
+    }
+
+    h2{
+      text-align: center;
+      margin-top: 1rem;
+    }
+.videos, .musics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  padding: 1rem;
+  gap:2rem
+}
+
+video{
+  width: 90%;
+  height: auto;
+  padding: 1rem;
+  border-radius: 9px;
+}
+
+audio{
+  width: 90%;
+  border-radius: 9px;
+}
+
+.videos div, .musics div{
+  text-align: center;
+  padding: 1rem;
+  border-radius: 9px;
+  box-shadow: 2px 3px 9px rgb(0, 0, 0,0.2);
+}
+  </style>
+</head>
+<body>
+  <h1>MI TECH FILM PRODUCTION Website</h1>
+  <section>
+  <h2>Welcome to MI TECH Film Production Website</h2>
+  <div class="videos">
+  <div>
+    <p>MI APPS Development</p>
+
+    <video controls>
+      <source src="video/MI APPS.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div>
+
+    <p>MI TECH - advertize</p>
+    <video controls>
+      <source src="video/MI TECH - advertize.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div>
+    <p>MI TECH - welcome</p>
+
+    <video controls>
+      
+      <source src="video/MI TECH - welcome.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div>
+    <p>MI TECH - count-down</p>
+
+    <video controls>
+      <source src="video/MI TECH - count-down.mp4" type="video/mp4">
+    </video>
+  </div>
+  </div>
+</section>
+<section>
+  <h2> Listen Our Favorite Songs </h2>
+  <div class="musics">
+  <div>
+    <p>A Stroll - The Grey Room & Density & Time</p>
+    <audio src="audio/A Stroll - The Grey Room _ Density & Time.mp3" controls loop></audio>
+  </div>
+  <div>
+    <p>Across Seas And Lands - Asher Fulero</p>
+    <audio src="audio/Across Seas And Lands - Asher Fulero.mp3" controls loop></audio>
+  </div>
+  <div>
+    <p>Blueprint for the Future - Lish Grooves</p>
+    <audio src="audio/blueprint for the future - Lish Grooves.mp3" controls loop></audio>
+  </div>
+  <div>
+    <p>Board Games For One - Single Friend</p>
+    <audio src="audio/Board Games For One - Single Friend.mp3" controls loop></audio>
+  </div>
+  </div>
+</section>
+</body>
+</html>
